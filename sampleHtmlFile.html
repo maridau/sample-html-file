@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta name="keywords" content="sample,html,file">
     <meta name="description" content="This is a sample html file">
+    
     <style>
         body{
-            background-color: gainsboro;
-            text-align: center;
+           
         }
         
         h1 {
@@ -27,22 +27,38 @@
             color: green;
             font-size: 20px;
         }
+        ul.todo-list{
+            margin: 5px;
+            padding: 0px;
+            border: 1px solid #333;
+            width: 200px;
+        }
+
+        ul.todo-list li{
+            background-color: #fff;
+            padding: 10px;
+            list-style-type: none;
+            border-bottom: 1px solid #666;
+        }
+        ul.todo-list li:last-child{
+            border-bottom: none;
+        }
+        ul.todo-list li.done{
+            background-color: #ccc;
+            text-decoration: line-through;
+        }
     </style>
-    <!--<script>
-        setTimeout(() => {
-            alert('Bienvenidos!');
-        }, 1000);
-    </script>-->
+  
 </head>
 
 <body>
-    <h1>ACADEMIA SENPAI</h1>
+    <h1>hola</h1>
 
-    <h2>Bienvenidos</h2>
-    <p>Curso <b><i>Front End Developer</i></b></p>
-
-    <h3>Horarios</h3>
-    <p>Martes y jueves de 20:30 a 22:30hs</p>
+    <ul class="todo-list">
+        <li class="done">Call Mom</li>
+        <li class="done">Buy Tickets</li>
+        <li>Do homework</li>
+    </ul>
 </body>
 
 </html>

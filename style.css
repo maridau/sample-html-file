@@ -1,0 +1,58 @@
+
+
+table {
+    width: auto;
+}
+/*colorear fila de tabla
+table tr:hover td{
+background-color:red;
+}*/
+
+table,
+td th {
+    padding: 5px;b
+    width: 150px;
+}
+
+tr {
+    border-bottom: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+table.colors-table tr td:nth-child(2) {
+    width: 50px;
+}
+
+/* inicio tabla 1 */
+
+.product {
+    border: 1px solid #333;
+}
+
+.before-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: red;
+}
+
+.current-price {
+    font-size: 18px;
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px dotted grey;
+}
